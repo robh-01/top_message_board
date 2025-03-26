@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add a message</title>
+  </head>
+  <body>
+    <a href="/">Messages Page</a>
+    <form method="POST" action="/new">
+      <h2>Enter your message:</h2>
+      <label for="author">Your Name: </label>
+      <input type="text" name="user" id="author" />
+      <label for="message">Message: </label>
+      <input type="text" name="text" id="message" />
+      <br />
+      <button type="submit">Send Message</button>
+    </form>
+  </body>
+</html>

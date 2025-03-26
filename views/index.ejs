@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/index.css" />
+    <title>Messages</title>
+  </head>
+  <body>
+    <a href="/new">Click to add a message.</a>
+    <div class="message-container">
+      <% messages.forEach((message, index) => { %>
+      <div class="message-box">
+        <h3>User: <%=message.user%></h3>
+        <h4>Message: <%=message.text%></h4>
+        <h5>Added: <%=message.added%></h5>
+        <button type="button">
+          <a href="/messages/<%=index%>">Open</a>
+        </button>
+      </div>
+      <% }); %>
+    </div>
+  </body>
+</html>

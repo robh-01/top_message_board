@@ -1,0 +1,6 @@
+.message-box {
+  padding: 0.5em 1em;
+  border: 1.5px solid #575353;
+  margin-bottom: 0.2rem;
+  width: fit-content;
+}
