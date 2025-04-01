@@ -8,7 +8,6 @@ export async function messageListGet(req, res) {
     ...messageObject,
     added: formatDate(messageObject.added),
   }));
-  console.log(messages);
   res.render("index", { title: "Mini Message-board", messages });
 }
 
