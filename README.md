@@ -1,6 +1,6 @@
 # Mini Messageboard
 
-A simple message board application built using Express and EJS.
+A simple message board application built using Express, EJS and Postgres for db.
 
 ## Features
 

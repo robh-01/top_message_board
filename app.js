@@ -1,8 +1,8 @@
 import express from "express";
 import path from "path";
-import { indexRouter } from "./routers/indexRouter.js";
-import { newMessageRouter } from "./routers/newMessageRouter.js";
-import { messageDetailsRouter } from "./routers/messageDetailsRouter.js";
+import { indexRouter } from "./routes/indexRouter.js";
+import { newMessageRouter } from "./routes/newMessageRouter.js";
+import { messageDetailsRouter } from "./routes/messageDetailsRouter.js";
 
 const app = express();
 

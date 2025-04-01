@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/robh-01/top_message_board#readme",
   "dependencies": {
+    "dotenv": "^16.4.7",
     "ejs": "^3.1.10",
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "pg": "^8.14.1"
   }
 }
